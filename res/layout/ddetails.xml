@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- row.xml -->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:background="#FFFAF0"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+   
+    <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		     android:gravity="left"			     
+ 		     android:text="">
+ 	</TextView>
+ 	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  	<TableRow>
+  	<TextView   
+    		 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+ 		   	 android:textStyle="bold"
+		  	android:text="Task Owner">
+ 	</TextView>
+ 	<TextView   
+    		
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" /> 
+ 	<TextView   
+    		android:id="@+id/town" 
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="" />
+ 	
+ 	</TableRow>
+  	</TableLayout>
+	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  	<TableRow>
+  	 <TextView   
+    		  
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+ 		   	 android:textStyle="bold"
+		     android:text="Task Name:-" />
+ 	
+ 	<TextView   
+    		 
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		     android:gravity="left"
+ 		     android:textStyle="bold"			     
+ 		     android:text=""/>
+ 	 <TextView   
+    		 android:id="@+id/tname" 
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="" />
+ 	</TableRow>
+ 	</TableLayout>
+ 	
+  	<TextView   
+    		android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+  	
+  
+  	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  	<TableRow>
+  	<TextView   
+    		  
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+ 		   	 android:textStyle="bold"
+		  	android:text="Priority">
+ 	</TextView>
+ 	<TextView   
+    		
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" /> 
+ 	<TextView   
+    		 android:id="@+id/tpriority" 
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="">
+ 	</TextView>
+ 	</TableRow>
+  	</TableLayout>
+  	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  	<TableRow>
+  	<TextView   
+    		  
+ 			android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+ 		   	 android:textStyle="bold"
+		  	android:text="Due">
+ 	</TextView>
+ 	<TextView   
+    		
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" /> 
+ <TextView   
+    		 android:id="@+id/due" 
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="">
+ 	</TextView>
+ 	</TableRow>
+ 	<TableRow>
+  	  
+    			<TextView   
+    		  
+ 			android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+ 		   	 android:textStyle="bold"
+		  	android:text="Time">
+ 	</TextView>
+ 	<TextView   
+    		
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" /> 
+ 	<TextView   
+    		 android:id="@+id/time" 
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="">
+ 	</TextView>
+ 	</TableRow>
+  	</TableLayout>
+  	<TextView   
+    		
+ 			 android:layout_width="10px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" /> 
+  	<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  	<TableRow>
+  	
+  		  <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="100px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+  		 <Button 
+				android:id="@+id/call1" 
+				 android:background="@drawable/call"
+				android:layout_height="50px" 
+				android:layout_width="50px" />
+		    <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="45px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+			 <Button 
+			  android:text="Cancel"
+				android:id="@+id/cancel"
+				android:layout_height="50px" 
+				android:layout_width="75px" />
+  		</TableRow>	
+  		
+  		</TableLayout>
+  	</LinearLayout>
+  
+  

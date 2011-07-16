@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    >
+
+	<TextView  
+   	 	android:layout_width="320px" 
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="20px"/>  
+
+	<TextView
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content" 
+				android:paddingLeft="80px"
+				/> 
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="50px"
+		android:paddingTop="10px" 
+		>
+ 
+ 			<TextView  
+    			android:layout_width="60px" 
+    			android:layout_height="30px"
+    			android:paddingLeft="80px"
+    			android:textSize="20px"
+    			android:typeface="serif"
+    			android:text="LOGIN"
+    			android:textColor="#000000"
+    			/>
+ 			<TableRow>
+ 				<TextView
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					/>
+			</TableRow>
+ 			<TableRow>
+ 				<TextView
+					android:id="@+id/t1" 
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					android:textColor="#000000"
+					android:textStyle="bold"
+					android:text="Username: " 
+					/>
+				<EditText 
+					android:layout_height="wrap_content" 
+					android:id="@+id/uname" 
+					android:background="#E6E6E6"
+					android:typeface="serif"
+					android:layout_width="150px" 
+					/>
+ 			</TableRow>
+ 			<TableRow>
+ 				<TextView  
+    				android:layout_width="fill_parent" 
+    				android:layout_height="10px"
+    				/> 
+ 			</TableRow>
+ 			<TableRow>
+  				<TextView 
+					android:id="@+id/t2" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textColor="#000000" 
+					android:textStyle="bold"
+					android:text="Password: "
+					/>
+				<EditText 
+					android:id="@+id/pwd" 
+					android:layout_width="150px" 
+					android:background="#E6E6E6"
+					android:typeface="serif"
+					android:layout_height="wrap_content" 
+					android:password="true" 
+					/>
+ 			</TableRow>   
+	</TableLayout>
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="50px"
+		>
+		
+		<TableRow> 
+ 			<TextView
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content" 
+				android:paddingLeft="80px"
+				/>  
+			<Button 
+				android:id="@+id/login" 
+				android:layout_height="wrap_content" 
+				android:layout_width="fill_parent"
+				android:textStyle="bold"
+				android:text="Login"
+				/> 
+			<Button 
+				android:id="@+id/reset" 
+				android:layout_height="wrap_content" 
+				android:layout_width="fill_parent"
+				android:textStyle="bold"
+				android:text="Reset"
+				/> 
+  		</TableRow>
+  		
+	<TextView
+		android:id="@+id/text1" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		/>
+	<TextView
+		android:id="@+id/text2" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		/>
+	</TableLayout>
+ </LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01" 
+        android:layout_width="470px" 
+        android:layout_height="1000px">
+-->
+
+<LinearLayout android:id="@+id/LinearLayout01"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:background="@drawable/background"
+ xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent">
+     <TableRow>
+      <TextView
+android:layout_width="wrap_content"
+android:layout_height="50px"/>
+</TableRow> 
+<TableRow>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+</TableRow>
+<TableRow>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+</TableRow>
+<TableRow>
+<Button
+android:id="@+id/add"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="10px"
+android:background="@drawable/contactbutton"/>
+</TableRow>
+<TableRow>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+</TableRow>
+<TableRow>
+<Button
+android:id="@+id/call"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="10px"
+android:background="@drawable/calllistbutton"/>
+</TableRow>
+<TableRow>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+</TableRow>
+s<TableRow>
+<Button
+android:id="@+id/task"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="10px"
+android:background="@drawable/taskbutton"/>
+</TableRow>
+<TableRow>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+</TableRow>
+<TableRow>
+<Button
+android:id="@+id/bs"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="10px"
+android:background="@drawable/bs"/>
+</TableRow>
+<TableRow>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+</TableRow>
+<TableRow>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+</TableRow>
+<TableRow>
+<TextView
+android:layout_width="20px"
+android:layout_height="20px"/>
+</TableRow>
+<TableRow>
+</TableRow>
+</TableLayout>
+
+    </LinearLayout>

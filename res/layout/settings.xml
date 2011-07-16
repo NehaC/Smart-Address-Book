@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="550px"
+    android:layout_height="600px" android:orientation="vertical"
+    android:background="#FFFFFF">
+    <TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  			
+  	<TableRow>
+  			<TextView
+  				android:text="Auto Sync"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:textColor="#000000"/>
+				<TextView
+				android:layout_height="wrap_content" 
+				android:layout_width="150px" /> 
+       
+				<CheckBox
+				android:id="@+id/auto"
+ 				android:layout_width="wrap_content"
+ 				android:layout_height="wrap_content"/>
+				 </TableRow>
+			</TableLayout>
+         <TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+      	<TableRow>
+  			<TextView
+  				android:text="Manual Sync"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:textColor="#000000"/>
+				<TextView
+				android:layout_height="wrap_content" 
+				android:layout_width="135px" /> 
+       
+				<CheckBox
+				android:id="@+id/manual"
+ 				android:layout_width="wrap_content"
+ 				android:layout_height="wrap_content"/>
+				 </TableRow>
+				 </TableLayout>
+ </LinearLayout>

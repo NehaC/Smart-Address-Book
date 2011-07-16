@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.SAB_v1"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"></uses-permission>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".SAB_v1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<activity android:name=".SAB_v1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+              
+            </intent-filter>
+        
+          </activity>
+             <activity android:name=".ViewByName"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+              
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeleteCallList"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+              
+            </intent-filter>
+        </activity>
+         <activity android:name=".ViewByTag"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeleteList"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        <activity android:name=".SearchDetails"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+              <activity android:name=".EditList"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        <activity android:name=".Details"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+             </activity>
+              <activity android:name=".AddMoreInfo"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>
+             <activity android:name=".Contacts"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+             </activity>
+        <activity android:name=".AddContact"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditContact"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewTask"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeleteContact"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+        </activity>
+        <activity android:name=".AllContacts"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+        </activity>
+         <activity android:name=".CreateList"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        
+             <activity android:name=".Call"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+             </activity>
+             <activity android:name=".CallList"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+             </activity>
+<activity android:name=".DialogforCreate"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>
+<activity android:name=".DisplayCallList"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>
+             
+<activity android:name=".DisplayCallListDetails"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+             </activity>
+             <activity android:name=".AddTask"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>
+             <activity android:name=".Call1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+             </activity>
+                            <activity android:name=".Sync"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+             </activity> 
+              <activity android:name=".CallLogDisplay"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>   
+              <activity android:name=".Calldetails"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+             </activity>   
+                       <activity android:name=".UpdateStatus"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>   
+                      <activity android:name=".Task_Today"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>
+             <activity android:name=".Task_Pending"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>   
+             <activity android:name=".Task_Upcoming"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+             </activity>      
+             <activity android:name=".Task_TodayDetails"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>  
+             <activity android:name=".Task_UpcomingDetails"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>      
+             <activity android:name=".Task_PendingDetails"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+             </activity>  
+              <activity android:name=".SendMail"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>   
+              <activity android:name=".SMS"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+             </activity>   
+             <activity android:name=".ViewTask"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>   
+              <activity android:name=".Select"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>  
+              <activity android:name=".Sync"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>    
+              <activity android:name=".DateTime"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>   
+              <activity android:name=".DateTimePicker"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+              
+            </intent-filter>
+             </activity>
+              <activity android:name=".Register"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>    
+              <activity android:name=".Call1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity> 
+               <activity android:name=".Search"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>   
+             <activity android:name=".addtask"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>   
+             <activity android:name=".Bscontacts"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>        
+             <activity android:name=".Settings"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>            
+              <activity android:name=".AutoSync"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>      
+              <activity android:name=".ManualSync"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+             </activity>     
+             <activity android:name=".Edit"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>      
+             <activity android:name=".Delete"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+             </activity>       
+    <receiver
+            android:name=".MyAlarmService">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <data
+                    android:scheme="myscheme" />
+            </intent-filter>
+        </receiver>
+         <receiver
+            android:name=".MyAlarmServiceCalllist">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <data
+                    android:scheme="myscheme" />
+            </intent-filter>
+        </receiver>
+            <receiver
+            android:name=".BinarySMSReceiver">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <data
+                    android:scheme="myscheme" />
+            </intent-filter>
+        </receiver> 
+    </application>
+
+     <uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCOUNT_MANAGER"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.BROADCAST_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"></uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER"></uses-permission>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"></uses-permission>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_INPUT_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+      <uses-permission android:name="android.permission.CAMERA" />
+ <uses-feature android:name="android.hardware.camera" />
+ <uses-feature android:name="android.hardware.camera.autofocus" /> 
+        <uses-permission android:name="android.permission.VIBRATE" />
+        
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+    
+</manifest>

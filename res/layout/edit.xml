@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:background="#FFFFF1"
+ xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="2">
+    <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Edit Contact"
+android:textColor="#306EFF"
+android:textSize="20px"
+ android:textStyle="italic"
+ android:typeface="serif"
+ android:gravity="center"/>
+ <TextView
+       android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+       />
+       
+       <TableRow>
+       <ImageView
+     android:id="@+id/gimg1"
+     android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+    android:src="@drawable/propic" />
+     </TableRow>
+       <TableRow>
+   <TextView
+ android:id="@+id/Button01"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/edit_photo"
+  android:textSize="15px"
+  android:autoLink="all"
+  android:textColor="#FF0000"/>
+     </TableRow>
+     <TableRow>
+      <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="First Name"
+android:textSize="15px"
+android:textColor="#15317E"/>
+<TextView
+       android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+       />
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/efname"
+android:textColor="#306EFF"
+android:textSize="12px"
+/>
+ 
+</TableRow>
+<TableRow>
+ <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Last Name"
+android:textSize="15px"
+android:textColor="#15317E"/>
+<TextView
+       android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+       />
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/elname"
+android:textColor="#15317E"
+android:textSize="12px"/>
+</TableRow>
+<TableRow>
+ <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Mobile No"
+android:textSize="15px"
+android:textColor="#15317E"/>
+<TextView
+       android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+       />
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/emno"
+android:textColor="#15317E"
+android:textSize="12px"/>
+</TableRow>
+<TableRow>
+ <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Email ID"
+android:textSize="15px"
+android:textColor="#15317E"/>
+<TextView
+       android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+       />
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/eemail"
+android:textColor="#15317E"
+android:textSize="12px"/>
+</TableRow>
+<TableRow>
+ <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Add Tags"
+android:textSize="15px"
+android:textColor="#15317E"/>
+<TextView
+       android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+       />
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/etags"
+android:textColor="#15317E"
+android:textSize="12px"></EditText>
+</TableRow>
+<TableRow>
+<TextView
+       android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+       />
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Update"
+android:id="@+id/update"/>
+</TableRow>
+</TableLayout>
+
+    </LinearLayout>

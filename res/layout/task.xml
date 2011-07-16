@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+      
+       <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="2">
+          <TableRow>
+       <EditText android:id="@+id/edate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:cursorVisible="false"
+        android:textColor="#000000"
+        />
+    <Button android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick date"
+        />
+        </TableRow>
+          <TableRow>
+       <EditText android:id="@+id/etime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:cursorVisible="false"
+        android:textColor="#000000"/>
+    <Button android:id="@+id/Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Time"
+        />
+        </TableRow>
+        <TableRow>
+        <Button android:id="@+id/ok1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        />
+        <Button android:id="@+id/cancel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        />
+        </TableRow>
+       
+        </TableLayout>
+       </RelativeLayout>

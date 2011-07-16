@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01" 
+        android:layout_width="470px" 
+        android:layout_height="600px">
+
+--><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+      <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TableRow>
+    <TextView
+    android:layout_width="90px"
+    android:layout_height="90px"/>
+        <TextView 
+        android:id="@+id/name"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:enabled="false"
+       android:textColor="#000000"
+       android:textSize="25px"
+       android:textStyle="bold"
+       android:gravity="center"/>
+       </TableRow>
+        <TableRow>
+        <TextView  
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:textColor="#000000"
+       android:textSize="15px"
+      android:id="@+id/cstatus"
+      android:textStyle="bold"/>
+        </TableRow>
+        
+        </TableLayout>
+         <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+        <TableRow>    
+         <RadioGroup android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:orientation="vertical"
+      android:id="@+id/Group1">
+            <RadioButton android:id="@+id/task" 
+                android:text="Add Task" 
+                android:layout_width="350px" 
+                android:layout_height="wrap_content" 
+                android:textColor="#000000"
+                android:textSize="20px">
+                </RadioButton>
+            <RadioButton android:id="@+id/notes" 
+                android:text="Add Note" 
+                android:layout_width="300px" 
+                android:textSize="20px" 
+                android:textColor="#000000"
+                android:layout_height="wrap_content">
+                </RadioButton>
+                         </RadioGroup> 
+        </TableRow>
+         </TableLayout>
+                  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+       <TableRow>
+       <TextView
+    android:layout_width="70px"
+    android:layout_height="70px"/>
+       <Button android:id="@+id/ok"
+        android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true" 
+       android:text="Done"/>
+       <TextView
+    android:layout_width="20px"
+    android:layout_height="20px"/>
+       <Button android:id="@+id/cancel1"
+        android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:text="Cancel"/>
+      
+       </TableRow>
+       </TableLayout>
+     
+       </LinearLayout>
+       <!--</ScrollView>-->

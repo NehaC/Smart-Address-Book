@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01" 
+        android:layout_width="470px" 
+        android:layout_height="600px">
+
+--><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:background="#FFFAF0"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+      <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TableRow>
+    <TextView
+    android:layout_width="90px"
+    android:layout_height="90px"/>
+        <TextView  
+       android:id="@+id/name"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:enabled="false"
+       android:textColor="#000000"
+       android:textSize="25px"
+       android:textStyle="bold"
+       android:gravity="center"/>
+       </TableRow>
+        <TableRow>
+        <TextView  
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:textColor="#000000"
+       android:textSize="25px"
+       android:text="Action By:-"/>
+        
+        <Spinner
+  android:id="@+id/actionby"
+  android:layout_width="250px"
+  android:layout_height="wrap_content"/>
+        </TableRow>
+         </TableLayout>
+         <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="20px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+          <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"    android:layout_height="wrap_content">
+     <TableRow>
+        <TextView  
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:textColor="#000000"
+       android:textSize="25px"
+       android:text="Select Action:-"/>
+       
+          <Spinner
+  android:id="@+id/action"
+  android:layout_height="wrap_content" 
+  android:layout_width="250px"/>
+           </TableRow>
+        </TableLayout>  
+        <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="20px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+ 	 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+        <TableRow>
+        <TextView  
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:textColor="#000000"
+       android:textSize="25px"
+       android:text="Add Description"/>
+       </TableRow>
+       <TableRow>
+       <EditText
+       android:id="@+id/descp"  
+       android:layout_width="180px" 
+       android:layout_height="100px"
+       android:textColor="#000000"
+       android:textSize="25px"/>
+       </TableRow>
+        </TableLayout>  
+       <TextView   
+    		 android:id="@+id/TextView01" 
+ 			 android:layout_width="20px"
+ 		     android:layout_height="10px" 
+ 		  	 android:text="" />
+ 		  	    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+       <TableRow>
+        <TextView android:id="@+id/Date" 
+        android:layout_height="wrap_content"
+                android:layout_width="0dip" 
+                android:layout_weight="1" 
+               android:textColor="#000000"/>
+                
+        <TextView android:id="@+id/Time"
+         android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                 android:layout_weight="1" 
+                android:textColor="#000000" />
+       </TableRow>
+       </TableLayout>
+         <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+       <TableRow>
+       <Button android:id="@+id/ddone"
+        android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true" 
+       android:text="Done"/>
+       <Button android:id="@+id/dcancel"
+        android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:text="Cancel"/>
+      
+       </TableRow>
+       </TableLayout>
+       </LinearLayout>
+<!--       </ScrollView>-->

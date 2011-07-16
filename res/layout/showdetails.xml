@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:background="#FFFAF0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+ 
+ 		<TextView android:id="@+id/text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="13dip"
+              android:textColor="#000000"
+              android:text="TASK Details"
+              
+              />
+             <TextView   
+    		 android:id="@+id/tname" 
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	android:text="" />
+              
+           <TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+  			
+  	<TableRow>
+  	 <TextView   
+    		 android:id="@+id/tname" 
+ 			 android:layout_width="180px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="" />
+	  </TableRow>
+	 <TableRow> 
+	   <TextView   
+    		 android:id="@+id/tdescp" 
+ 			 android:layout_width="80px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="" />
+	</TableRow>
+	<TableRow> 
+	   <TextView   
+    		 android:id="@+id/tddate" 
+ 			 android:layout_width="80px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="" />
+	</TableRow>
+	<TableRow> 
+	   <TextView   
+    		 android:id="@+id/ttime" 
+ 			 android:layout_width="80px"
+ 		     android:layout_height="wrap_content" 
+ 		   	android:textColor="#000000"
+ 		   	 android:padding="3dip"
+		     android:text="" />
+	</TableRow>
+	</TableLayout>
+   </LinearLayout>

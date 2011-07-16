@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+    <TextView  
+   	 	android:layout_width="320px" 
+    	android:layout_height="60px"
+    	android:paddingLeft="20px"/>  
+ <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TableRow>
+	<EditText
+	android:layout_width="210px" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/browse"
+	/>
+ 	 <Button
+   	 android:layout_width="wrap_content" 
+   	 android:layout_height="wrap_content" 
+   	 android:text="Browse business card"
+     android:id="@+id/br"
+/>
+</TableRow>
+</TableLayout>
+<TextView  
+   	 	android:layout_width="0px" 
+    	android:layout_height="30px"/>  
+ <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TableRow>
+  <Button
+    android:layout_width="140px" 
+    android:layout_height="wrap_content" 
+    android:text="Take Snap"
+     android:id="@+id/snap"/>
+     <TextView  
+   	 	android:layout_width="10px" 
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="20px"/>  
+ 	<Button
+    android:layout_width="100px" 
+    android:layout_height="wrap_content" 
+    android:text="Send"
+     android:id="@+id/send"
+	/>
+	<TextView  
+   	 	android:layout_width="10px" 
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="20px"/>  
+ <Button
+    android:layout_width="100px" 
+    android:layout_height="wrap_content" 
+    android:text="Cancel"
+     android:id="@+id/cancel"/>
+</TableRow>
+</TableLayout>
+</LinearLayout>

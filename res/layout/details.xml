@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:id="@+id/ScrollView01" 
+        	android:layout_width="fill_parent" 
+        	android:layout_height="fill_parent"
+        	android:background="#FFFFFF">
+ <LinearLayout android:id="@+id/LinearLayout01"
+ 			android:layout_width="fill_parent"
+ 			android:layout_height="fill_parent"
+ 			android:background="#FFFFFF"
+ xmlns:android="http://schemas.android.com/apk/res/android">
+ <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    			  android:layout_width="fill_parent"
+    			  android:layout_height="fill_parent">
+    <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textColor="#306EFF"
+android:textSize="20px"
+ android:textStyle="italic"
+ android:typeface="serif"
+ android:gravity="center"/>
+ <TextView
+       android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+  <TableRow>
+   <TextView
+       android:layout_width="10px"
+		android:layout_height="wrap_content" />
+       <ImageView
+     android:id="@+id/gimg2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+   	android:src="@drawable/propic" />
+    </TableRow>
+    <TableRow>
+  <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="First Name"
+android:textColor="#15317E"/>
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/dfname"
+  android:textColor="#000000"/>
+ </TableRow>
+ <TextView
+       	android:layout_width="wrap_content"
+		android:layout_height="10px"
+       />
+<TableRow>
+ <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Last Name"
+android:textColor="#15317E"/>
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/dlname"
+ android:textColor="#000000"
+  />
+</TableRow>
+<TextView
+       	android:layout_width="wrap_content"
+		android:layout_height="10px"
+       />
+<TableRow>
+ <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Mobile No"
+android:textColor="#15317E"/>
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/dmno"
+ android:textColor="#000000"
+ />
+ <TextView
+    android:layout_width="10px"
+    android:layout_height="10px"/>
+ <Button
+ android:id="@+id/bcall"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:background="@drawable/call1"/>
+  </TableRow>
+  <TextView
+       	android:layout_width="wrap_content"
+		android:layout_height="10px"
+       />
+ <TableRow>
+  <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+android:textColor="#15317E"
+ android:text="Email Id"/>
+  <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/demail"
+ android:textColor="#000000"
+ android:paddingLeft="25px"/>
+</TableRow>
+<TextView
+       	android:layout_width="wrap_content"
+		android:layout_height="10px"
+       />
+<TableRow>
+ <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Add Tags"
+android:textColor="#15317E"/>
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/dtags"
+ android:textColor="#000000"/>
+</TableRow>
+<TextView
+       	android:layout_width="wrap_content"
+		android:layout_height="10px"
+       />
+<TableRow>
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+android:textColor="#15317E"
+ android:text="Birthday"/>
+   <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/dbday"
+ android:textColor="#000000"/>
+ </TableRow>
+ <TextView
+       	android:layout_width="wrap_content"
+		android:layout_height="10px"
+       />
+ <TableRow>
+       <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textColor="#15317E"
+ android:text="Organization"/>
+  <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/dorg"
+ android:textColor="#000000"/>
+ </TableRow>
+</TableLayout>
+</LinearLayout>
+</ScrollView>

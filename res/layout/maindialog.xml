@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+      
+       <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="2">
+    <TableRow>
+       <TextView  
+       android:id="@+id/TextView01"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:text="Enter Name Of List" 
+       android:textColor="#000000"/>
+       <EditText  
+       android:id="@+id/name"
+       android:layout_width="180px" 
+       android:layout_height="wrap_content"/>
+       </TableRow>
+       <TableRow>
+       <EditText android:id="@+id/edate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    <Button android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick date"/>
+        </TableRow>
+        <TableRow>
+       <EditText android:id="@+id/etime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    <Button android:id="@+id/Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick time"/>
+        </TableRow>
+             <TableRow>
+             <Button android:id="@+id/ok"
+        android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true" 
+       android:text="Ok"/>
+       <Button android:id="@+id/cancel"
+        android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:text="Cancel"/>
+        </TableRow>
+         <TableRow>
+	<TextView
+		android:id="@+id/text1" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:paddingLeft="50px"
+		android:textStyle="bold"
+		android:textColor="#FF0000"/>
+		</TableRow>
+       </TableLayout>
+       </RelativeLayout>

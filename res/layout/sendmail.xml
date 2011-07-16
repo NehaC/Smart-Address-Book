@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+      <TableRow>
+      <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="User Name"
+android:textSize="15px"
+android:textColor="#15317E"/>
+<EditText 
+    android:layout_width="210px" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/userid"
+    android:textColor="#306EFF"
+    />
+    </TableRow>
+      <TableRow>
+      <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Password"
+android:textSize="15px"
+android:textColor="#15317E"/>
+   <EditText 
+    android:layout_width="210px" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/password"
+    android:password="true"
+    android:textColor="#306EFF"
+    /> 
+    </TableRow>
+      <TableRow>
+      <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Sender Name"
+android:textSize="15px"
+android:textColor="#15317E"/>
+        <EditText 
+    android:layout_width="210px" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/from"
+    android:textColor="#306EFF"
+    /> 
+    </TableRow>
+      <TableRow>
+      <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="To"
+android:textSize="15px"
+android:textColor="#15317E"/>
+    <EditText 
+    android:layout_width="210px" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/to"
+    android:textColor="#306EFF"
+    /> 
+    </TableRow>
+      <TableRow>
+      <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Subject"
+android:textSize="15px"
+android:textColor="#15317E"/>
+    <EditText 
+    android:layout_width="210px" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/subject"
+    android:textColor="#306EFF"
+    /> 
+    </TableRow>
+      <TableRow>
+      <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Body"
+android:textSize="15px"
+android:textColor="#15317E"/>
+    <EditText 
+    android:layout_width="210px" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/body"
+    android:textColor="#306EFF"
+    />
+    </TableRow>
+    <TableRow>
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/send"
+    android:text="Send"/> 
+    </TableRow>
+    </TableLayout>
+</LinearLayout>

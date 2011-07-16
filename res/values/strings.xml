@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SmartAB!</string>
+    <string name="app_name">SmartAB</string>
+   <string name="up_one_level">..</string>
+   <string name="current_dir">.</string>
+   <string name="add_photo"><u>Add Photo</u></string> 
+    <string name="edit_photo"><u>Edit Photo</u></string> 
+    <string name="signup2"><u>SignUp</u></string>
+    <string name="go">Go</string>
+    <string name="address">Enter your address:</string>
+    <string name="input">City, Street</string>
+    <string name="ok">Ok</string>
+    <string name="phoneno_info">Phone Number</string>
+   <string name="message_info">SMS Message</string>
+   <string name="send_binarysms">Send binary sms (to port 8091)</string>
+    <string name="package_str">com.codemobiles.android.demo.customlistview</string>
+    <color name="textcolor">#000000</color>  
+ 	<style name="listFont" parent="@android:style/TextAppearance.Small">  
+     <item name="android:textColor">#000000</item>  
+ 	</style>  
+   
+</resources>

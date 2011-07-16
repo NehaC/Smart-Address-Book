@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:background="#FFFFFF"
+ xmlns:android="http://schemas.android.com/apk/res/android">
+       <TextView
+    android:text=""
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableRow>
+      <TextView
+    android:text=" "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+       </TableRow>
+       <TableRow>
+      <TextView
+    android:text=" "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+       </TableRow>
+       <TableRow>
+      <TextView
+    android:text=""
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+       </TableRow>
+     <TableRow>
+     <TextView
+    android:text=" "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <Button
+android:id="@+id/today"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Today                    >>"
+/> 
+</TableRow>
+<TextView
+    android:text=" "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+  <TableRow>
+  <TextView
+    android:text=" "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <Button
+android:id="@+id/upcoming"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Upcoming                   >>"
+/> 
+<TextView
+    android:text=" "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</TableRow>
+   <TableRow>
+   <TextView
+    android:text="  "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <Button
+android:id="@+id/pending"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Pending                    >>"
+/> 
+</TableRow>
+</TableLayout>
+
+    </LinearLayout>

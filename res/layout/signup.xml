@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01" 
+        android:layout_width="fill_parent" 
+        android:background="#FFFAF0"
+        android:layout_height="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    >
+
+	
+
+	
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="20px"
+		 
+		>
+ 
+ 			<TextView  
+    			android:paddingLeft="80px"
+    			android:textSize="20px"
+    			android:typeface="serif"
+    			android:text="Registration"
+    			android:textColor="#000000" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+ 			<TableRow android:layout_weight="1">
+ 				<TextView
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					/>
+			</TableRow>
+ 			<TableRow android:layout_weight="1">
+ 				<TextView
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					android:textColor="#000000"
+					android:textStyle="bold"
+					android:text="First Name" 
+					/>
+				<EditText 
+					android:layout_height="wrap_content" 
+					android:id="@+id/fname" 
+					android:background="#E6E6E6"
+					android:typeface="serif"
+					android:layout_width="150px" 
+					/>
+ 			</TableRow>
+ 			<TableRow android:layout_weight="1">
+ 				<TextView  
+    				android:layout_width="fill_parent" 
+    				android:layout_height="10px"
+    				/> 
+ 			</TableRow>
+ 			<TableRow android:layout_weight="1">
+  				<TextView 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textColor="#000000" 
+					android:textStyle="bold"
+					android:text="Middle Name"
+					/>
+				<EditText 
+					android:id="@+id/mname" 
+					android:layout_width="150px" 
+					android:background="#E6E6E6"
+					android:typeface="serif"
+					android:layout_height="wrap_content" 
+				
+					/>
+ 			</TableRow>
+ 			<TableRow android:layout_weight="1">
+ 				<TextView
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					/>
+			</TableRow>
+ 			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1">
+  				<TextView 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textColor="#000000" 
+					android:textStyle="bold"
+					android:text="Last Name "
+					/>
+				<EditText 
+					android:id="@+id/lname" 
+					android:layout_width="150px" 
+					android:background="#E6E6E6"
+					android:typeface="serif"
+					android:layout_height="wrap_content" 
+				
+					/>
+ 			</TableRow>
+ 			<TableRow android:layout_weight="1">
+ 				<TextView
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					/>
+			</TableRow>
+ 			<TableRow android:layout_weight="1">
+  				<TextView 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textColor="#000000" 
+					android:textStyle="bold"
+					android:text="Phone Number "
+					/>
+				<EditText 
+					android:id="@+id/ph" 
+					android:layout_width="150px" 
+					android:background="#E6E6E6"
+					android:typeface="serif"
+					android:layout_height="wrap_content" 
+					
+					/>
+ 			</TableRow>
+ 			<TableRow android:layout_weight="1">
+ 				<TextView
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					/>
+			</TableRow>
+ 			
+		<TableRow android:layout_weight="1">
+  				<TextView 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textColor="#000000" 
+					android:textStyle="bold"
+					android:text="Email ID "
+					/>
+				<EditText 
+					android:id="@+id/email" 
+					android:layout_width="150px" 
+					android:background="#E6E6E6"
+					android:typeface="serif"
+					android:layout_height="wrap_content" 
+				
+					/>
+ 			</TableRow> 
+ 			
+ 			<TableRow android:layout_weight="1">
+ 				<TextView
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					/>
+			</TableRow>
+ 			
+		<TableRow android:layout_weight="1">
+  				<TextView 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textColor="#000000" 
+					android:textStyle="bold"
+					android:text="Password "
+					/>
+				<EditText 
+					android:id="@+id/pass" 
+					android:layout_width="150px" 
+					android:background="#E6E6E6"
+					android:typeface="serif"
+					android:layout_height="wrap_content" 
+					android:password="true"
+					
+					/>
+ 			</TableRow> 
+ 			<TableRow android:layout_weight="1">
+ 				<TextView
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					/>
+			</TableRow>
+ 			<TableRow android:layout_weight="1">
+  				<TextView 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textColor="#000000" 
+					android:textStyle="bold"
+					android:text="Repeat Password "
+					/>
+				<EditText 
+					android:id="@+id/rp" 
+					android:layout_width="150px" 
+					android:background="#E6E6E6"
+					android:typeface="serif"
+					android:layout_height="wrap_content" 
+					android:password="true" 
+					/>
+ 			</TableRow>
+ 			<TableRow android:layout_weight="1">
+ 				<TextView
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					/>
+			</TableRow>
+ 			<TableRow android:layout_weight="1">
+  				<TextView 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textColor="#000000" 
+					android:textStyle="bold"
+					android:text="Gender"/>
+				<RadioGroup android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:orientation="horizontal"
+      android:id="@+id/Group1">
+            <RadioButton android:id="@+id/female" 
+                android:text="Female" 
+                android:layout_width="250px" 
+                android:layout_height="wrap_content" 
+                android:textColor="#000000" 
+				android:textStyle="bold"/>
+           <RadioButton android:id="@+id/male" 
+                android:text="Male" 
+                android:layout_width="250px" 
+               android:textColor="#000000" 
+				android:textStyle="bold"
+				android:layout_height="wrap_content"/>
+            </RadioGroup> 
+ 			</TableRow>
+ 			<TableRow android:layout_weight="1">
+ 				<TextView
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content" 
+					/>
+			</TableRow>     
+ 			
+	</TableLayout>
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		<TableRow> 
+ 			<TextView
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content" />
+				<TextView
+				android:layout_height="wrap_content" 
+				android:layout_width="20px" />
+				<TextView
+				android:layout_height="wrap_content" 
+				android:layout_width="20px" />  
+				<TextView
+				android:layout_height="wrap_content" 
+				android:layout_width="20px" />    
+			<Button 
+				android:id="@+id/reg" 
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:textStyle="bold"
+				android:text="Register"/>
+				<Button 
+				android:id="@+id/cancel" 
+				android:layout_height="wrap_content" 
+				android:layout_width="fill_parent"
+				android:textStyle="bold"
+				android:text="Cancel"/> 
+			 
+			
+  		</TableRow>
+  		
+				<TextView
+		android:id="@+id/text1" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:paddingLeft="50px"
+		android:textStyle="bold"
+		android:textColor="#FF0000"
+		android:text="" 
+		/>
+	</TableLayout>
+			
+	<TextView  
+   	 	android:layout_width="320px" 
+    	android:layout_height="wrap_content"/> 
+		
+	
+		
+	<TextView
+		android:id="@+id/text2" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:textColor="#000000"
+		android:text="" 
+		/>
+	<TextView
+		android:id="@+id/text" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:textStyle="bold"
+		android:textColor="#FF0000"
+		android:paddingLeft="50px"
+		android:text="" 
+		/>		
+	<TextView
+		android:id="@+id/text3" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		/>
+	<TextView
+		android:id="@+id/text4" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		/>
+	<TextView
+		android:id="@+id/text5" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		/>
+	
+ </LinearLayout>
+</ScrollView>

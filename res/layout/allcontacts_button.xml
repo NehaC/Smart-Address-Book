@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableRow>
+    <Button
+    android:id="@+id/back"
+    android:text="Back"
+    android:layout_width="80px"
+    android:layout_height="50px"/>
+    <TextView
+    android:layout_width="100px"
+    android:layout_height="20px"/>
+    <Button
+    android:id="@+id/add"
+    android:text="Add"
+    android:layout_width="80px"
+    android:layout_height="50px"/>
+    </TableRow>
+    </TableLayout>
+    </LinearLayout>

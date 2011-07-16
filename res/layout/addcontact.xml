@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent">
+<LinearLayout android:id="@+id/LinearLayout01"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:background="@drawable/homescreen"
+ xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="2">
+     <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Add New Contact"
+android:textColor="#306EFF"
+android:textSize="25px"
+ android:textStyle="italic"
+ android:typeface="serif"
+ android:gravity="center"
+ android:paddingLeft="7px"
+ android:paddingTop="15px"/>
+   <TableRow>
+     <ImageView
+     android:id="@+id/gimg1"
+     android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:src="@drawable/propic"
+  android:paddingLeft="7px"
+  android:paddingTop="40px"/>
+    </TableRow>
+  <TableRow>
+   <TextView
+ android:id="@+id/bimage"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/add_photo"
+  android:textSize="15px"
+  android:autoLink="all"
+  android:textColor="#FF0000"
+   android:paddingLeft="7px"
+  android:paddingTop="35px"/>
+     </TableRow>
+  <TextView
+ android:layout_width="20px"
+android:layout_height="20px"/>
+  <TableRow>
+   <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="First Name"
+android:textSize="20px"
+android:textColor="#15317E"
+android:paddingLeft="7px"/>
+<EditText
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/fname"
+android:textColor="#306EFF"
+android:textSize="20px"/>
+</TableRow>
+<TextView
+ android:layout_width="20px"
+android:layout_height="20px"/>
+<TableRow>
+ <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Last Name"
+android:textSize="20px"
+android:textColor="#15317E"
+android:paddingLeft="7px"/>
+<EditText
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/lname"
+android:textColor="#15317E"
+android:textSize="20px"/>
+</TableRow>
+<TextView
+ android:layout_width="20px"
+android:layout_height="20px"/>
+<TableRow>
+ <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Mobile No"
+android:textSize="20px"
+android:textColor="#15317E"
+android:paddingLeft="7px"/>
+<TextView
+ android:layout_width="20px"
+android:layout_height="20px"/>
+<Button
+ android:layout_width="10px"
+ android:layout_height="wrap_content"
+ android:id="@+id/mmnexp"
+ android:background="@drawable/plus1"/>
+</TableRow>
+<TableRow>
+   <Spinner
+  android:id="@+id/smob"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:visibility="gone"
+  android:paddingLeft="7px"/>
+<EditText
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/mmno"
+android:textColor="#15317E"
+android:textSize="20px"
+android:visibility="gone"/>
+<Button
+ android:layout_width="10px"
+ android:layout_height="wrap_content"
+ android:id="@+id/mnoexp"
+ android:background="@drawable/minus"
+ android:visibility="gone"/>
+ </TableRow>
+<TextView
+android:layout_width="20px"
+android:layout_height="20px"/>
+<TableRow>
+   <Spinner
+  android:id="@+id/shome"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:visibility="gone"
+  android:paddingLeft="7px"/>
+<EditText
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/hmno"
+android:textColor="#15317E"
+android:textSize="20px"
+android:visibility="gone"/>
+<Button
+ android:layout_width="10px"
+ android:layout_height="wrap_content"
+ android:id="@+id/hmnexp"
+ android:background="@drawable/minus"
+ android:visibility="gone"/>
+ </TableRow>
+ <TextView
+android:layout_width="20px"
+android:layout_height="20px"/>
+<TableRow>
+  <Spinner
+  android:id="@+id/swork"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+android:visibility="gone"
+android:paddingLeft="7px"/>
+<EditText
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/wmno"
+android:textColor="#15317E"
+android:textSize="20px"
+android:visibility="gone"/>
+ <Button
+ android:layout_width="10px"
+ android:layout_height="wrap_content"
+ android:id="@+id/wmnexp"
+ android:background="@drawable/minus"
+ android:visibility="gone"/>
+</TableRow>
+<TextView
+ android:layout_width="20px"
+android:layout_height="20px"/>
+<TableRow>
+<Spinner
+  android:id="@+id/sother"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+android:visibility="gone"
+android:paddingLeft="7px"/>
+<EditText
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/omno"
+android:textColor="#15317E"
+android:textSize="20px"
+android:visibility="gone"/>
+       <Button
+       android:layout_width="10px"
+       android:layout_height="wrap_content"
+       android:id="@+id/omnexp"
+       android:background="@drawable/minus"
+       android:visibility="gone"/>
+</TableRow>
+<TableRow>
+ <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Email Address"
+android:textSize="20px"
+android:textColor="#15317E"
+android:paddingLeft="7px"/>
+<TextView
+ android:layout_width="20px"
+android:layout_height="20px"/>
+<Button
+ android:layout_width="10px"
+ android:layout_height="wrap_content"
+ android:id="@+id/bhmail"
+ android:background="@drawable/plus1"/>
+</TableRow>
+<TableRow>
+   <Spinner
+  android:id="@+id/shmail"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:visibility="gone"
+  android:paddingLeft="7px"/>
+<EditText
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/ehmail"
+android:textColor="#15317E"
+android:textSize="20px"
+android:visibility="gone"/>
+<Button
+ android:layout_width="10px"
+ android:layout_height="wrap_content"
+ android:id="@+id/bhemail"
+ android:background="@drawable/minus"
+ android:visibility="gone"/>
+ </TableRow>
+ <TextView
+android:layout_width="20px"
+android:layout_height="20px"/>
+<TableRow>
+   <Spinner
+  android:id="@+id/swmail"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:visibility="gone"
+  android:paddingLeft="7px"/>
+<EditText
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/ewmail"
+android:textColor="#15317E"
+android:textSize="20px"
+android:visibility="gone"/>
+<Button
+ android:layout_width="10px"
+ android:layout_height="wrap_content"
+ android:id="@+id/bwmail"
+ android:background="@drawable/minus"
+ android:visibility="gone"/>
+ </TableRow>
+ <TextView
+android:layout_width="20px"
+android:layout_height="20px"/>
+<TableRow>
+  <Spinner
+  android:id="@+id/somail"
+  android:layout_width="200px"
+  android:layout_height="wrap_content"
+android:visibility="gone"
+android:paddingLeft="7px"/>
+<EditText
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/eomail"
+android:textColor="#15317E"
+android:textSize="20px"
+android:visibility="gone"/>
+ <Button
+ android:layout_width="10px"
+ android:layout_height="wrap_content"
+ android:id="@+id/bomail"
+ android:background="@drawable/minus"
+ android:visibility="gone"/>
+</TableRow>
+<TextView
+ android:layout_width="20px"
+android:layout_height="20px"/>
+<TableRow>
+ <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Add Tags"
+android:textSize="20px"
+android:textColor="#15317E"
+android:paddingLeft="7px"/>
+<EditText
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/atags"
+android:textColor="#15317E"
+android:textSize="20px"/>
+</TableRow>
+<TextView
+ android:layout_width="40px"
+android:layout_height="40px"/>
+<TableRow>
+<Button
+android:layout_width="10px"
+android:layout_height="wrap_content"
+android:text="Add More Info"
+android:id="@+id/addm"
+android:paddingLeft="7px"/>
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Save"
+android:id="@+id/save"/>
+<!--<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Clear"
+android:id="@+id/clear"/>
+-->
+</TableRow>
+<TableRow>
+	<TextView
+		android:id="@+id/text1" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:paddingLeft="50px"
+		android:textStyle="bold"
+		android:textColor="#15317E"
+		android:text=""/>
+</TableRow>
+</TableLayout>
+</LinearLayout>
+</ScrollView>

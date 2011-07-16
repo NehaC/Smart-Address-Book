@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow>
+       <TextView  
+       android:id="@+id/TextView01"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:text="Enter Notes" 
+       android:textColor="#000000"/>
+        </TableRow>
+        <TableRow>
+       <EditText  
+       android:id="@+id/unotes"
+       android:layout_width="180px" 
+       android:layout_height="100px"/>
+       </TableRow>
+       </TableLayout>
+       
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+        <TableRow>
+       
+       <Button android:id="@+id/bok"
+        android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true" 
+       android:text="Ok"
+        />
+
+       <Button android:id="@+id/bcancel"
+        android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:text="Cancel"
+       />
+    
+       </TableRow>
+       </TableLayout>
+       </LinearLayout>
+       
